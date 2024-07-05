@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h{
+    display:flex;
+    font-size: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    color: bisque;
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(9, 9, 37);
+    width:100%;
+    height:900px;
+    
+}
+#stone{
+    background-image: url(https://thumb.silhouette-ac.com/t/69/69ffced83032519ca680dc3058b9ca26_t.jpeg);
+    background-size: cover;
+    width:35%;
+    height:270px;
+    border: 2px solid black;
+    border-radius: 50%;  
+}
+.msgcontainer{
+    width:70%;
+    height:60px;
+    background-color:rgb(11, 11, 26);
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3.3rem;
+    margin-left: 14%;
+    margin-top: 40px;
+}
+.msg{
+    text-align: center;
+    font-size: 4rem;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+    
+      
+
+#paper{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVWG5ZPjwAItBdaR-dRdaI7cizXh-Z97w4RA&s);
+    background-size: cover;
+    width:35%;
+    height:270px;
+    border: 2px solid black;
+    border-radius: 50%;  
+    
+}
+#scissor{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSQNQ64qqJR7m7iOCusJpHT3F-jAltZAMdKQ&s);
+    background-size: cover;
+    width:35%;
+    height:270px;
+    border: 2px solid black;
+    border-radius: 50%;  
+    background-color: blueviolet;
+}
+.container{
+    width:70%;
+    display:flex;
+    margin-top:90px;
+    gap:50px;
+    margin-left:12%;
+    object-fit: cover;
+    
+}
+.container:hover{
+    cursor:pointer;
+   
+}
+.user{
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin-top: 80px;
+    margin-left:30%;
+}
+.comp{
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin-top: 80px;
+    margin-left:30%;  
+}
+.score1{
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left:30%;
+}
+.score2{
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-left: 30%;
+
+
+}
+.score-board{
+    display: flex;
+    
+}
